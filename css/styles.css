@@ -7,12 +7,12 @@ body{
 h1{
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-size:5.625rem;
+  font-size:5.5rem;
   color: #66BFBF;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color:#66BFBF;
   font-weight: normal;
   padding-bottom: 10px;
@@ -25,7 +25,7 @@ h3{
 h4{
   font-family: 'Montserrat', sans-serif;
   color:#11999E;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 a{
   color:#11999E;
@@ -109,6 +109,11 @@ padding: 50px 0 20px;
   margin:auto;
 }
 .challenge{
+  width:50%;
+  line-height: 2;
+  margin:auto;
+}
+.resources{
   width:50%;
   line-height: 2;
   margin:auto;
