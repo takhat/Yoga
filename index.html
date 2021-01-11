@@ -8,6 +8,9 @@
 
   <link rel=" preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Montserrat:wght@300;400&family=Sacramento&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <title>Tapasya Khatri</title>
 </head>
 
@@ -32,10 +35,10 @@
     <br>
     <hr>
 
-    <div class="offerings">
+    <div class="yoga-offerings">
       <h2>Current Offerings.</h2>
       <p><a class="btn" href="#newyearchallenge">ENROLL NOW - 2021 New Year Challenge</a></p>
-      <div class="yoga">
+      <div class="offerings">
 
         <h3>Virtual Yoga for kids (8-13 years old)</h3>
         <h4>
@@ -43,48 +46,63 @@
         </h4><br>
         <p>I teach age-appropriate postures, incorporating mindfulness and breathing exercises, aimed at improving focus, flexibility, strength and stamina, calming the mind, boosting immunity and supporting healthy physical and emotional growth of
           kids.</p>
+
         <img class="kids-yoga-img" src="images/KidsYoga2.png" alt="Kids Yoga Pic">
         <img class="kids-yoga-img" src="images/KidsYoga3.png" alt="Kids Yoga Pic">
         <img class="kids-yoga-img" src="images/KidsYoga4.png" alt="Kids Yoga Pic">
         <img class="kids-yoga-img" src="images/KidsYoga5.png" alt="Kids Yoga Pic">
 
       </div>
-      <div class="yoga">
+      <div class="offerings">
         <img class="adults-yoga-img" src="" alt="">
         <h3>Virtual Yoga for adults</h3>
         <h4>
           Saturdays 11 am - Noon
-          <a class="btn" href="https://anc.apm.activecommunities.com/redmondparksandrec/activity/search?onlineSiteId=0&activity_select_param=2&activity_category_ids=28&activity_keyword=tapasya&viewMode=list">ENROLL</a>
         </h4><br>
         <p>The Hatha Yoga is a moderate intensity class that combines breath, mindfulness and movement to help build physical and emotional strength, endurance, balance, flexibility, immunity and overall sense of wellbeing. It aims to combat stress
           and fatigue while improving positivity and vitality.</p>
       </div>
       <hr>
-      <div class="testimonials">
+
+      <div class="testimonials-container">
+        <div class="testimonials">
         <h2>Testimonials.</h2>
-        <p><em>
-            "Tapasya is a very patient and caring yoga teacher. She always has a plan for each day and tries to change her yoga routine to break the boredom! I’m always curious to see what she has planned for each session!
-            She has been my son’s yoga teacher as well for the past year and he loves being part of her sessions.
-            I started my yoga journey with Tapasya a year ago and I’m so happy with her teaching style."
-            <br>- Vidya Natarajan</p>
-        <p>"My 9 year and 13 year old have been learning Yoga from Tapasya for over a year now. I love how she guides them through the different yoga poses in a calm way while also explaining the health benefits. She also incorporates breathing
-          exercises to calm them down and help with focusing."
-          <br>- Anonymous</em>
-        </p>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p><em>
+                  "Tapasya is a very patient and caring yoga teacher. She always has a plan for each day and tries to change her yoga routine to break the boredom! I’m always curious to see what she has planned for each session!
+                  She has been my son’s yoga teacher as well for the past year and he loves being part of her sessions.
+                  I started my yoga journey with Tapasya a year ago and I’m so happy with her teaching style."
+                  <br><br>- Vidya Natarajan</p>
+            </div>
+            <div class="carousel-item">
+              <p>"My 9 year and 13 year old have been learning Yoga from Tapasya for over a year now. I love how she guides them through the different yoga poses in a calm way while also explaining the health benefits. She also incorporates breathing
+                exercises to calm them down and help with focusing."
+                <br><br>- Anonymous</em>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
       </div>
       <hr>
-      <div class="resources">
+      <div>
         <h2>Resources.</h2>
-        <h4><a href="https://www.facebook.com/watch/?v=224766865442102">Yoga Breath of Joy</a><br>
-          <a href="https://www.facebook.com/watch/?v=245705696541008">Yoga Stretches</a>
-        </h4>
+            <h4><a class="btn" href="https://www.facebook.com/watch/?v=224766865442102">Breath of joy</a></h4>
+            <h4><a class="btn" href="https://www.facebook.com/watch/?v=245705696541008">Yoga stretches</a></h4>
       </div>
       <hr>
       <div class="challenge" id=newyearchallenge>
         <h2>Looking for a positive change to jumpstart your new year?</h2>
         <h4>Schedule: 26th Dec 2020 to 15th Jan 2021 from 7:30-7:50 am</h3>
           <p>
-            I invite you to join me for a 21-days mini-yoga session everyday for 3 weeks on Zoom. We will begin with basics and slowly advance our practice. It is based on the Japanese concept of <em>Kaizen</em>- little steps leading to big
+            I invite you to join me for a 21-days mini-yoga session everyday for 3 weeks on Zoom. We will begin with the basics and slowly advance our practice. It is based on the Japanese concept of <em>Kaizen</em>- little steps leading to big
             improvement. Why 21 days? Let's test the conventional wisdom that it takes 21 days to make the new behavior a habit.</p>
           <h4>
             <p>Special Introductory Price: $60, Family discount 10%</p>
